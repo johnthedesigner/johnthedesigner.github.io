@@ -1,6 +1,6 @@
 html,body{
 	width:100%;
-	height:100%;
+	margin:0;
 	font-size:12px;
 }
 body{
@@ -10,4 +10,56 @@ body{
 	background-size:cover;
 	background-attachment:fixed;
 	text-align:center;
+	font-family:"Source Sans Pro", arial, sans-serif;
+	font-weight:100;
+	color:#FFF;
+}
+#main-content{
+	margin:8em 0;
+}
+#main-content h2{
+	font-weight:600;
+	font-size:3em;
+	margin:0 0 1em;
+}
+#main-content h2 .light-text{
+	font-weight:100;
+}
+#main-content h3, #main-content a{
+	font-weight:100;
+	font-size:2em;
+	line-height:2em;
+	text-decoration:none;
+	margin:0;
+	display:block;
+	color:#FFF;
+	transition:opacity linear .1s;
+}
+#main-content h3{
+	margin-top:2em;
+}
+#main-content a em{
+	font-family:"Libre Baskerville", georgia, serif;
+	font-style:normal;
+}
+#xmain-content a:before{
+	content:"→   ";
+	margin-right:.5em;
+}
+#main-content a:hover{
+	opacity:.6;
+}
+
+/* FOOTER */
+footer{
+	text-align:center;
+	padding:3em 0;
+	background:#FFF;
+}
+footer p{
+	color:#DDD;
+	font-family:"Source Sans Pro", arial, sans-serif;
+	font-weight:100;
+	font-size:1em;
+	margin:.5em 0;
 }
